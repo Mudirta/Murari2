@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(rgba(241, 241, 47, 0.5), rgba(0, 10, 5, 0.5), rgba(0, 15, 14, 0.70)),
+    url('view.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+  
+}
+
+canvas {
+  position: absolute;
+  display: flex;
+  z-index: -1;
+  margin-top: 10px;
+  margin-left: 150px;
+  
+  
+}
+img{
+ position: absolute;
+ margin-top: 20px;
+ margin-left: 200px;
+ z-index: 1;
+}
+h2{
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 160px;
+  color: indigo;
+}
+
+
+
+
+
+
+
+
